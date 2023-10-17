@@ -34,6 +34,7 @@ add_message_files(DIRECTORY msg FILES
   RobustControllerStatus.msg
   SEAJointState.msg
   URDFConfiguration.msg
+  CartesianImpState.msg
 )
 
 add_service_files(DIRECTORY srv FILES
